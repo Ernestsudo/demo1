@@ -1,0 +1,22 @@
+需求：在线考试管理系统
+子需求：1.用户信息查询任务
+       2.用户信息注册任务
+       3.用户信息登录
+       3.用户信息更新
+准备工作：
+1.创建用户信息表 User.frm
+
+CREAT TABLE Users{
+    id int  primary key auto_increment, #用户编号
+    username varchar(50),  #用户姓名
+    password varchar(50), #用户的密码
+    sex char(1), #用户的性别 ‘男’或者‘女’
+    email varchar(50), #用户的email
+}
+auto_increment 自增序列
+
+2.创建实体类
+Public void Users{
+
+
+}
